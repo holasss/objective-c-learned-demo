@@ -38,15 +38,22 @@
 //    _name = name;
 //    _score = score;
 //}
+
+
+//@synthesize name = _name;  不需要在.h中实例变量
+//@synthesize score = _score;
 @synthesize name;
 @synthesize score;
 
--(NSString *)name{
-    return _name;
-}
--(NSInteger)score{
-    return _score;
-}
+
+
+
+//-(NSString *)name{
+//    return _name;
+//}
+//-(NSInteger)score{
+//    return _score;
+//}
 
 +(void)textStudentInfo{
     Student *stu = [[Student alloc] init];
