@@ -38,7 +38,7 @@
 //    _name = name;
 //    _score = score;
 //}
-@synthesize setName;
+@synthesize name;
 @synthesize score;
 
 -(NSString *)name{

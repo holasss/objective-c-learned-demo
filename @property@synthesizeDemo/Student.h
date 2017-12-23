@@ -15,15 +15,15 @@
 -(id)init;
 -(id)initWithName:(NSString *)name andScore:(NSInteger)score;
 
-//-(void)setName:(NSString *)name;
+//-(void)setName:(NSString *)name;   setter方法
 //-(void)setScore:(NSInteger)score;
 //-(void)setName:(NSString *)name andScore:(NSInteger)score;
-@property (nonatomic, assign) NSString *setName;
+@property (nonatomic, assign) NSString *name;
 @property (nonatomic, assign) NSInteger score;
 //@property NSString *setName and NSInteger andScore;
 
--(NSString *)name;
--(NSInteger)score;
+//-(NSString *)name;   getter方法
+//-(NSInteger)score;
 
 -(void)printStudentInfo;
 +(void)textStudentInfo;
