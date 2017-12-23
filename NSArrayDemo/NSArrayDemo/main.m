@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
         NSArray *array1 = @[@"one",@"two",@"three",[NSNumber numberWithInt:123]];
         NSLog(@"array1=%@",array1);
         
-        //通过传入数组的元素创建数组对象
+        //通过传入数组的元素创建数组对象。
         NSArray *array3 = [[NSArray alloc] initWithObjects:@"four",@"five",@"six", nil];//nil表示结束
         
     }
