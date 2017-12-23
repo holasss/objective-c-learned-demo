@@ -46,14 +46,13 @@
 @synthesize score;
 
 
-
-
-//-(NSString *)name{
-//    return _name;
-//}
-//-(NSInteger)score{
-//    return _score;
-//}
+//若@synthesize name = _name;@synthesize score = _score;不需要实现以下getter方法
+-(NSString *)name{
+    return _name;
+}
+-(NSInteger)score{
+    return _score;
+}
 
 +(void)textStudentInfo{
     Student *stu = [[Student alloc] init];
