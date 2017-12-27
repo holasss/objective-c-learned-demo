@@ -20,7 +20,6 @@
     view.backgroundColor = [UIColor yellowColor];
 
 
-
     //透明度 范围：0~1
     //0表示透明
     ///0.5半透明
